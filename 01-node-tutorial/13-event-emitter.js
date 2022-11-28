@@ -10,6 +10,7 @@ const customEmitter = new EventEmitter();
 // additional arguments
 // built-in modules utilize it
 
+// event er nam likhbo ........................................... then response ki korbo sheta dibo
 customEmitter.on("response", (name, id) => {
     console.log(`data recieved user ${name} with id:${id}`);
 });

@@ -37,3 +37,7 @@ readFile("./content/first.txt", "utf8", (err, result) => {
 console.log("starting next task");
 
 // alternative hocche async await ar promise use kora jete pare.. karon eita onek genjam er
+
+// asynchronous e .. we are not blocking the event loop .. problem hocche .. ei callback approach use
+// korle .. eta taratari messy hoye jay .. jehetu amra ekta callback er moddhe arekta callback nesting
+// kortesi ..
