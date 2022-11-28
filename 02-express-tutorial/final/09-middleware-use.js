@@ -6,7 +6,7 @@ const authorize = require("./authorize");
 // app.use(logger)  // je kono route e hit korlei .. ei middleware kaj korbe ..
 //app.use("/", logger) // shob url e gele ei middlware kaj korbe ..
 //app.use("/api", logger) // shudhu matro /api and er porer shob url e gele ei middleware kaj korbe
-app.use([logger, authorize]); // multiple middleware use korar way
+app.use([logger, authorize]); // multiple middleware use korar way // order maintain kore ..
 // api/home/about/products
 app.get("/", (req, res) => {
     res.send("Home");
